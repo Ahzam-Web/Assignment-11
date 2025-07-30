@@ -1,0 +1,117 @@
+/* Jawan color : rgb(0, 104, 56) */
+
+div.body{
+    margin-top: 100px;
+}
+
+.card{
+    width: 70%;
+    /* height: 1000px;
+    max-width: 1000px;
+    min-width: 1000px; */
+
+    box-shadow: 0 0 10px grey;
+    margin: auto;
+    padding: 20px;
+    /* text-align: center; */
+}
+
+.heading-container h2{
+    /* font-size: 80%; */
+    text-align: center;
+    color: rgb(0, 104, 56);
+}
+
+
+/* #jawan-form{
+    display: inline;
+} */
+
+#jawan-form select{
+    font-size: 12px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 104, 56);
+    background-color: white;
+    width: 100%;
+}
+
+#jawan-form input, option{
+    font-size: 0.4em;
+}
+
+#jawan-form label{
+    font-size: 0.5em;
+}
+
+.field-div sup{
+    color: red;
+    font-size: 0.5em;
+}
+
+.field-div{
+    /* margin: 10px 0 5px 0; */
+    margin: 10px 10px 10px 10px;
+    /* border: 1px solid black; */
+    width: 30%;
+    display: inline-block;
+    /* width: 180px; */
+    /* max-width: 300px; */
+}
+
+.full-field-div{
+    margin: 10px 10px 10px 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+    display: inline-block;
+}
+
+.full-field-div label{
+    /* border: 1px solid red; */
+    display: block;
+    font-size: 0.5em;
+}
+.full-field-div sup{
+    color: red;
+    font-size: 0.5em;
+}
+
+.full-field-div input{
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid rgb(0, 104, 56);
+    outline: none;
+}
+
+.first-div{
+    margin: 10px 10px 10px 0;
+}
+
+.field-div input{
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid rgb(0, 104, 56);
+    outline: none;
+    width: 100%;
+}
+
+.field-div label{
+    /* border: 1px solid red; */
+    display: block;
+    font-size: 0.5em;
+    font-weight: bold;
+    color: rgb(88, 89, 98);
+    width: 100%;
+    /* text-align: center; */
+}
+
+#file-input{
+    width: 100%;
+}
+
+#file-input::file-selector-button{
+    color: white;
+    background-color: green;
+    border: none;
+}
