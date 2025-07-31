@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Jawan Pakistan</title>
+        <link rel="icon" href="https://jawan-tech.web.app/portrait_logo.png"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
@@ -19,7 +20,7 @@
                 <div class="fields-container">
                     <form id="jawan-form">
 
-                            <div class="field-div first-div">
+                            <div class="field-div">
                                 <label for="institute-selector">Institute
                                     <sup>*</sup>
                                 </label>
@@ -48,13 +49,12 @@
                                 </label>
                                 <select id="timing-selector" required>
                                     <option disabled selected>Select Timing</option>
-                                    <option value="02pm">02:00PM - 05:00PM</option>
-                                    <option value="10am">10:00AM - 01:00PM</option>
-                                    <option value="06pm">06:00PM - 09:00PM</option>
+                                    <option value="mod_b">Module B: Every Saturday 10am to 02pm</option>
+                                    <option value="mod_a">Module A: Every Saturday 02pm to 06pm</option>
                                 </select>
                             </div>
 
-                            <div class="field-div first-div">
+                            <div class="field-div">
                                 <label for="name-input">Full Name
                                     <sup>*</sup>
                                 </label>
@@ -75,7 +75,7 @@
                                 <input id="email-input" type="email" required placeholder="abc123@gmail.com"/>
                             </div>
 
-                            <div class="field-div first-div">
+                            <div class="field-div">
                                 <label for="number-input">Contact Number
                                     <sup>*</sup>
                                 </label>
@@ -96,7 +96,7 @@
                                 <input id="cnic-input" type="email" required placeholder="4XXXXXXXXXXXX"/>
                             </div>
 
-                            <div class="field-div first-div">
+                            <div class="field-div">
                                 <label for="gender-select">Gender
                                     <sup>*</sup>
                                 </label>
@@ -129,16 +129,22 @@
                                 </select>
                             </div>
 
-                            <div class="full-field-div first-div">
+                            <div class="full-field-div">
                                 <label for="address-input">Permanent Address
                                     <sup>*</sup>
                                 </label>
-                                <input id="address-input" required/>
+                                <input id="address-input" maxlength="60" required/>
                             </div>
 
-                            <div class="field-div first-div">
+                            <div class="file-input-div">
                                 <label for="file-input">Passport Size Profile Image (Face Front and Decent picture)</label>
                                 <input id="file-input" type="file"/>
+                            </div>
+
+                            <div class="full-field-div submit-btn-div">
+                                <button type="button">
+                                    Submit Form
+                                </button>
                             </div>
                     </form>
                 </div>
