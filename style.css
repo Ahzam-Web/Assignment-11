@@ -1,7 +1,46 @@
 /* Jawan color : rgb(0, 104, 56) */
 
+body{
+    margin: 0;
+}
+
+.nav{
+    height: 100px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px #867b7b;
+}
+
+.img-div{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.other-div{
+    margin-left: 150px;
+    width: 20%;
+    display: inline-block;
+}
+
+.other-div a{
+    height: 100%;
+    margin: 30px;
+    margin-top: 0px;
+    font-size: 0.4em;
+    width: 30%;
+    text-decoration: none;
+    color: black;
+}
+
+.img-div img{
+    height: 80%;
+    width: 10%;
+    object-fit: cover;
+}
+
 div.body{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .card{
@@ -12,7 +51,6 @@ div.body{
 }
 
 .heading-container h2{
-    /* font-size: 80%; */
     text-align: center;
     color: rgb(0, 104, 56);
 }
